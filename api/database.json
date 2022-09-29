@@ -1,0 +1,58 @@
+{
+  "Clowns": [
+    {
+      "id": 1,
+      "Name": "Buttons"
+    },
+    {
+      "id": 2,
+      "Name": "Lollipop"
+    }
+  ],
+  "ClownBookings": [
+    {
+      "clownID": "1",
+      "requestID": "1",
+      "id": 1
+    },
+    {
+      "clownID": "1",
+      "requestID": "2",
+      "id": 2
+    },
+    {
+      "clownID": "2",
+      "requestID": "3",
+      "id": 3
+    }
+  ],
+  "Bookings": [
+    {
+      "parentName": "Red Bull",
+      "childName": "Blue Bull",
+      "attendingParty": "35",
+      "address": "404 Error St.",
+      "dateParty": "2022-10-01",
+      "lengthReservation": "3",
+      "id": 1
+    },
+    {
+      "parentName": "Hank Hill",
+      "childName": "Bobby Hill",
+      "attendingParty": "15",
+      "address": "45 Main St.",
+      "dateParty": "2022-10-08",
+      "lengthReservation": "2",
+      "id": 2
+    },
+    {
+      "parentName": "Beebo Jenkins",
+      "childName": "Steve Jenkins",
+      "attendingParty": "35",
+      "address": "345 West Pine Lane",
+      "dateParty": "2022-10-22",
+      "lengthReservation": "4",
+      "id": 3
+    }
+  ]
+}
